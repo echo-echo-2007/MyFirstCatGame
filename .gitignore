@@ -1,0 +1,97 @@
+# ============================================================
+# MyFirstCatGame - 通用 .gitignore
+# 这是个多技术栈的保护性规则集，只忽略「生成物 / 本地配置」，
+# 不会忽略任何源码或工程定义文件（.sln / .csproj / .uproject 都会保留）。
+# 确定技术栈后可以删掉用不到的小节。
+# ============================================================
+
+# ---------- 操作系统 / 编辑器杂项 ----------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+~$*
+
+# ---------- Visual Studio / .NET ----------
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.psess
+*.vsp
+*.vspx
+*.log
+
+# ---------- JetBrains / VS Code ----------
+.idea/
+.vscode/
+
+# ---------- Unity ----------
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Bb]uild/
+[Bb]uilds/
+sysinfo.txt
+*.unitypackage
+crashlytics-build.properties
+
+# ---------- Godot ----------
+.godot/
+export_presets.cfg
+
+# ---------- Unreal Engine ----------
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+
+# ---------- Node / 前端 ----------
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- 打包 / 二进制产物 ----------
+*.apk
+*.aab
+*.app
+*.ipa
+*.pdb
+*.mdb
+*.exe.config
+
+# ---------- 压缩包（视需要保留） ----------
+*.zip
+*.7z
+*.rar
